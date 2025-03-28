@@ -892,6 +892,7 @@ GameObject:
   - component: {fileID: 782148965}
   - component: {fileID: 782148964}
   - component: {fileID: 782148970}
+  - component: {fileID: 782148971}
   m_Layer: 0
   m_Name: Ball announce 2
   m_TagString: Untagged
@@ -1027,6 +1028,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   oatmeal: {fileID: 0}
+--- !u!114 &782148971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782148963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc7c5e50e39fd1b4f90de9b2ae0b7da9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &786669279 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6654034042119420766, guid: 6f72a8daf2a7b2d4d8c0e3438358a8f1,
@@ -1628,6 +1641,7 @@ GameObject:
   - component: {fileID: 1294738166}
   - component: {fileID: 1294738165}
   - component: {fileID: 1294738164}
+  - component: {fileID: 1294738170}
   - component: {fileID: 1294738169}
   m_Layer: 0
   m_Name: ball announce 1
@@ -1749,6 +1763,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a6bc78abf390544781271a96678f6d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1294738170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294738163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4cb1abde114e304da3e4eb7ff32c623, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1342970745 stripped
